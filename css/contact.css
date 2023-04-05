@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0 8%;
     min-height: 100vh;
-    width: 80%;
+    width: 85%;
     font-family: 'Roboto', sans-serif;
     background-color: #101214;
     background-image: url(../images/gif.jpg);
@@ -22,35 +22,12 @@ body{
 
 }
 
-h2,.white{
-    color: #d7f359;
-    font-style: oblique;
-    border: 2px solid rgb(185, 182, 182);
-    width: 45%;
-    border-radius: 10px;
-} 
-
-
-h3,.black{
-    color: #fffcfc;
-    font-size: 20px;
-
-}
-
 a{
     color: #06b7d6;
     text-decoration: none;
     font-size: 15px;
 }
     
-/* section 1 */
-.section-1{
-    padding-top: 15vh;
-    text-align: center;
-    font-size: 50px; 
-}
-
-
 /* section 2 */
 .section-2{
  width: 80%;
@@ -98,28 +75,41 @@ a{
 }
 
 
-.me{
-    width: 400px;
-    height: 400px;
-    box-shadow: 0px 4px 2px 5px #06b7d6;
-    border: 2px solid white;
+.box{
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    color: #ffffff;
 }
 
-.info{
-    margin-left: 850px;
-    margin-top: -90px;
+.box h1{
+    margin-bottom: 5%;
 }
 
-.info ul li{
-    list-style: none;
+.box h2{
+    margin-top: 2%;
+}
+
+.box ul li{
+    list-style-type: none;
     display: inline-block;
-    padding: 20px;
+    padding: 10px 25px;
+}
+.box ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 40px;
+    align-items: center;
+}
+.box ul li a i:hover{
+    color: #06b7d6;
+    transition: .4s;
 }
 
-.fa-brands{
-    font-size: 50px;
-    box-shadow: 4px 4px 4px 4px #06b7d6;
-    border-radius: 70%;
-    background-color: rgba(0, 0, 0, 0.7);
+.my-contact .me-myself{
+    height: 350px;
+    width: 350px;
+    border: white 2px solid;
 }
-
