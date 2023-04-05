@@ -1,0 +1,140 @@
+grid-2{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0 8%;
+    min-height: 100vh;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #101214;
+    background-image: url(https://media.giphy.com/media/l19ipdY2pjK3d8Omtz/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    color: #7A7C80;
+    
+
+}
+
+h2,.white{
+    color: #d7f359;
+    font-style: oblique;
+    border: 2px solid rgb(185, 182, 182);
+    width: 45%;
+    border-radius: 10px;
+} 
+
+
+h3,.black{
+    color: #fffcfc;
+    font-size: 20px;
+
+}
+
+a{
+    color: #06b7d6;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* section 2 */
+.section-2{
+ width: 80%;
+ margin: auto;
+ padding: 36px 0;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+/* animations / utilities */
+
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+}
+
+.tribute-container{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 250px;
+    height: auto;
+    border: white 3px solid;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.tribute-header{
+    text-align: left;
+    height: auto;
+    border: white 3px solid;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.artist{
+    color: #06b7d6;
+    margin-top: 10px;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.status{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 94.5px;
+}
+
+.tribute-header img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    background: rgba(0, 0, 0, 0.80);
+    margin-right: 15px;
+}
+
+.tribute-body{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.album img{
+    width: 500px;
+    height: 230px;
+    filter: grayscale();
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+
+.album p{
+    color: #06b7d6;
+    float: right;
+    margin-right: 200px;
+}
+
+.album img:hover{
+    filter: none;
+    transition: .2s;
+    border: green 3px solid;
+}
