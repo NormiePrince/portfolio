@@ -126,7 +126,8 @@ a{
 
 .info-2 ul li{
     list-style: none;
-    
+    dislay: inline-block;
+    float: none;
     padding: 20px;
     align-items: center;
 }
