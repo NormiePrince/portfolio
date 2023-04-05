@@ -92,6 +92,11 @@ a{
     border: white 3px solid;
     background: rgba(0, 0, 0, 0.75);
 }
+.about{
+    margin-left: 4px;
+    margin-right: 4px;
+    letter-spacing: 1px;
+}
 
 .artist{
     color: #06b7d6;
